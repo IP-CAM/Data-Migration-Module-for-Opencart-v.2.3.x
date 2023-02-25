@@ -226,7 +226,7 @@ class ControllerExtensionModuleD2dDatamigration extends Controller {
         );
         $data['breadcrumbs'][] = array(
             'text' => $language->get('text_extension'),
-            'href' => $this->getAdminUrl('marketplace/extension')
+            'href' => $this->getAdminUrl('extension/extension')
         );
         $data['breadcrumbs'][] = array(
             'text' => $language->get('heading_title'),
